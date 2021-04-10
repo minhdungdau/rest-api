@@ -1,4 +1,7 @@
 {
+  "protected_resources": {
+    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+  },
   "users": [{"id":1,"name":"Bùi Văn Minh","email":"buiminhhp92@gmail.com","gender":"M","password":"123456","yearOfBirth":1992,"phone":"036-200-1053"},
     {"id":2,"name":"Mavis Jeffreys","email":"mjeffreys1@oracle.com","gender":"F","password":"S1PIvJTqiA","yearOfBirth":1999,"phone":"658-361-0702"},
     {"id":3,"name":"Tresa Jakoviljevic","email":"tjakoviljevic2@skype.com","gender":"F","password":"ujWqR2","yearOfBirth":2003,"phone":"634-430-5709"},
