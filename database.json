@@ -1,106 +1,1523 @@
 {
   "protected_resources": {
-    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+    "users": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+    ]
   },
-  "users": [{"id":1,"name":"Bùi Văn Minh","email":"buiminhhp92@gmail.com","gender":"M","password":"123456","yearOfBirth":1992,"phone":"036-200-1053"},
-    {"id":2,"name":"Mavis Jeffreys","email":"mjeffreys1@oracle.com","gender":"F","password":"S1PIvJTqiA","yearOfBirth":1999,"phone":"658-361-0702"},
-    {"id":3,"name":"Tresa Jakoviljevic","email":"tjakoviljevic2@skype.com","gender":"F","password":"ujWqR2","yearOfBirth":2003,"phone":"634-430-5709"},
-    {"id":4,"name":"Fin Gockelen","email":"fgockelen3@de.vu","gender":"M","password":"gVws5jOyork","yearOfBirth":2008,"phone":"313-472-8792"},
-    {"id":5,"name":"Stacee Glazer","email":"sglazer4@themeforest.net","gender":"M","password":"zDycLQ8dC","yearOfBirth":1989,"phone":"885-151-9224"},
-    {"id":6,"name":"Phineas Artist","email":"partist5@ovh.net","gender":"M","password":"X9f1BAuai","yearOfBirth":2008,"phone":"169-498-9667"},
-    {"id":7,"name":"Irwin Keling","email":"ikeling6@shareasale.com","gender":"M","password":"kQGHjMxQ5Qx","yearOfBirth":2012,"phone":"687-615-8972"},
-    {"id":8,"name":"Haskel Zannuto","email":"hzannuto7@themeforest.net","gender":"M","password":"wH5zHoeuS","yearOfBirth":1995,"phone":"134-795-4083"},
-    {"id":9,"name":"Carmina Shurey","email":"cshurey8@google.co.uk","gender":"F","password":"ZMPpdOp5","yearOfBirth":2004,"phone":"740-925-9586"},
-    {"id":10,"name":"Lorenzo Gheeorghie","email":"lgheeorghie9@bbb.org","gender":"M","password":"VQ2OApnSLAH","yearOfBirth":1997,"phone":"109-265-2817"},
-    {"id":11,"name":"Hyacinthe Reddish","email":"hreddisha@youku.com","gender":"F","password":"Btg5vs","yearOfBirth":1998,"phone":"885-671-3063"},
-    {"id":12,"name":"Weider Pescud","email":"wpescudb@livejournal.com","gender":"M","password":"eH7EqvecK","yearOfBirth":2003,"phone":"171-589-6201"},
-    {"id":13,"name":"Renato Zannelli","email":"rzannellic@theatlantic.com","gender":"M","password":"gJISmRGhCTA","yearOfBirth":2010,"phone":"234-280-3209"},
-    {"id":14,"name":"Benji Matussov","email":"bmatussovd@apache.org","gender":"M","password":"CiKlc5mcz","yearOfBirth":1960,"phone":"635-255-7122"},
-    {"id":15,"name":"Kendre Konerding","email":"kkonerdinge@prnewswire.com","gender":"F","password":"mnVLGTE549","yearOfBirth":2005,"phone":"513-341-3838"},
-    {"id":16,"name":"Inez Bollins","email":"ibollinsf@omniture.com","gender":"F","password":"wsKgrqhW0Adh","yearOfBirth":1989,"phone":"925-642-1713"},
-    {"id":17,"name":"Annabell Esler","email":"aeslerg@slate.com","gender":"F","password":"NOV77sU","yearOfBirth":1989,"phone":"820-432-1932"},
-    {"id":18,"name":"Coralyn Fairweather","email":"cfairweatherh@google.com.au","gender":"F","password":"oSUepaj","yearOfBirth":1995,"phone":"179-970-3356"},
-    {"id":19,"name":"Roderick Boutflour","email":"rboutflouri@networksolutions.com","gender":"M","password":"2sjUYbsQ2nl","yearOfBirth":2011,"phone":"144-733-3878"},
-    {"id":20,"name":"Forester Creasey","email":"fcreaseyj@businessweek.com","gender":"M","password":"tLhRILCZ","yearOfBirth":2005,"phone":"154-410-3847"},
-    {"id":21,"name":"Sanford McReedy","email":"smcreedyk@1und1.de","gender":"M","password":"wLEp9hUXuE","yearOfBirth":2004,"phone":"280-249-7266"},
-    {"id":22,"name":"Robinett Shacklady","email":"rshackladyl@ftc.gov","gender":"F","password":"OC3KHPOgBco","yearOfBirth":2001,"phone":"970-624-1709"},
-    {"id":23,"name":"Fulvia Tapper","email":"ftapperm@surveymonkey.com","gender":"F","password":"Y9X9Jab7","yearOfBirth":1996,"phone":"183-529-0165"},
-    {"id":24,"name":"Sinclare Trass","email":"strassn@thetimes.co.uk","gender":"M","password":"sa0u6yhuz","yearOfBirth":1995,"phone":"509-813-3250"},
-    {"id":25,"name":"Sondra McGowran","email":"smcgowrano@businessweek.com","gender":"F","password":"OuhLaXtY","yearOfBirth":1996,"phone":"858-159-7810"},
-    {"id":26,"name":"Wilmette Chezelle","email":"wchezellep@aboutads.info","gender":"F","password":"Kl7hfMHM","yearOfBirth":1995,"phone":"842-606-4138"},
-    {"id":27,"name":"Amalia Purdy","email":"apurdyq@stumbleupon.com","gender":"F","password":"F6IPHcu","yearOfBirth":2010,"phone":"352-346-9053"},
-    {"id":28,"name":"Melany Cleminson","email":"mcleminsonr@geocities.com","gender":"F","password":"wV9GgMHb6T","yearOfBirth":1996,"phone":"284-774-0419"},
-    {"id":29,"name":"Katina Leal","email":"kleals@hubpages.com","gender":"F","password":"06wlXA5hGq","yearOfBirth":1969,"phone":"613-899-9437"},
-    {"id":30,"name":"Gayler Perch","email":"gpercht@cisco.com","gender":"M","password":"ib5X72B","yearOfBirth":1991,"phone":"780-952-3355"},
-    {"id":31,"name":"Roseann O'Hederscoll","email":"rohederscollu@quantcast.com","gender":"F","password":"SxHJkvKB8BD6","yearOfBirth":1994,"phone":"212-332-4223"},
-    {"id":32,"name":"Garvin Simenet","email":"gsimenetv@bing.com","gender":"M","password":"MdgL5eSj","yearOfBirth":2006,"phone":"761-961-4637"},
-    {"id":33,"name":"Ulrika Bloxsom","email":"ubloxsomw@addtoany.com","gender":"F","password":"tnaT48y","yearOfBirth":2007,"phone":"312-122-9621"},
-    {"id":34,"name":"Jacinta Scroggins","email":"jscrogginsx@dyndns.org","gender":"F","password":"oohvfO","yearOfBirth":1994,"phone":"485-445-7853"},
-    {"id":35,"name":"Alisun Ashmole","email":"aashmoley@meetup.com","gender":"F","password":"wKrXTUE","yearOfBirth":1985,"phone":"197-342-4290"},
-    {"id":36,"name":"Edmund Ewbank","email":"eewbankz@census.gov","gender":"M","password":"6V5YVgHNcGD","yearOfBirth":2004,"phone":"612-686-2366"},
-    {"id":37,"name":"Englebert Woolam","email":"ewoolam10@adobe.com","gender":"M","password":"PSp7KSWaU1y","yearOfBirth":1992,"phone":"818-425-8226"},
-    {"id":38,"name":"Leanora Balfe","email":"lbalfe11@shareasale.com","gender":"F","password":"gqRvgdEWvS","yearOfBirth":2010,"phone":"412-192-2713"},
-    {"id":39,"name":"Kally Buncher","email":"kbuncher12@nhs.uk","gender":"F","password":"FfPH7k2h1","yearOfBirth":1998,"phone":"102-618-6403"},
-    {"id":40,"name":"Sidney Mew","email":"smew13@elpais.com","gender":"M","password":"kWoUWw","yearOfBirth":2008,"phone":"845-946-2845"},
-    {"id":41,"name":"Roda Tejada","email":"rtejada14@goo.gl","gender":"F","password":"ejgxyfc","yearOfBirth":1997,"phone":"138-216-9481"},
-    {"id":42,"name":"Michel Staning","email":"mstaning15@imageshack.us","gender":"F","password":"bdXRvc","yearOfBirth":2003,"phone":"388-478-9502"},
-    {"id":43,"name":"Krista Garatty","email":"kgaratty16@etsy.com","gender":"F","password":"yBHepoag6GH","yearOfBirth":1996,"phone":"247-366-5325"},
-    {"id":44,"name":"Neville Frankton","email":"nfrankton17@nhs.uk","gender":"M","password":"1sHwleK","yearOfBirth":2011,"phone":"330-388-6288"},
-    {"id":45,"name":"Glendon Freund","email":"gfreund18@phpbb.com","gender":"M","password":"sgmrtG63","yearOfBirth":2006,"phone":"908-718-8925"},
-    {"id":46,"name":"Ralph Starling","email":"rstarling19@naver.com","gender":"M","password":"YbKVzJ","yearOfBirth":2009,"phone":"685-603-1594"},
-    {"id":47,"name":"Rosina Aslott","email":"raslott1a@weather.com","gender":"F","password":"EQOFAXP3","yearOfBirth":2002,"phone":"268-368-7402"},
-    {"id":48,"name":"Karlotta Pinkie","email":"kpinkie1b@narod.ru","gender":"F","password":"8b1L8Q6KM","yearOfBirth":1993,"phone":"258-812-1121"},
-    {"id":49,"name":"Janeczka Drysdall","email":"jdrysdall1c@mapquest.com","gender":"F","password":"XOzFDj","yearOfBirth":2006,"phone":"284-197-4143"},
-    {"id":50,"name":"Elston Roderigo","email":"eroderigo1d@springer.com","gender":"M","password":"J1vZ9DiM","yearOfBirth":1993,"phone":"105-677-9950"},
-    {"id":51,"name":"Darcee Lashmore","email":"dlashmore1e@typepad.com","gender":"F","password":"Fb0DVCSjwMF","yearOfBirth":2009,"phone":"703-312-5203"},
-    {"id":52,"name":"Audre Mallinar","email":"amallinar1f@jigsy.com","gender":"F","password":"CCzdGhhC7","yearOfBirth":2003,"phone":"196-251-5328"},
-    {"id":53,"name":"Nedda Bruck","email":"nbruck1g@cam.ac.uk","gender":"F","password":"5oTzMmo","yearOfBirth":1992,"phone":"420-190-4869"},
-    {"id":54,"name":"Pate Pattlel","email":"ppattlel1h@eventbrite.com","gender":"M","password":"Nlk3peHTvY","yearOfBirth":1996,"phone":"317-557-4396"},
-    {"id":55,"name":"Cheryl Mingus","email":"cmingus1i@w3.org","gender":"F","password":"GHa7Cvztsrbi","yearOfBirth":2004,"phone":"680-245-6198"},
-    {"id":56,"name":"Sheilakathryn Coupe","email":"scoupe1j@ameblo.jp","gender":"F","password":"a4Bkj43c","yearOfBirth":2006,"phone":"561-995-2232"},
-    {"id":57,"name":"Zolly Gemlett","email":"zgemlett1k@hatena.ne.jp","gender":"M","password":"v3HiURrT","yearOfBirth":2004,"phone":"746-600-3145"},
-    {"id":58,"name":"Dieter Delbergue","email":"ddelbergue1l@latimes.com","gender":"M","password":"AZ180Lb7Iq","yearOfBirth":2000,"phone":"914-323-6435"},
-    {"id":59,"name":"Christian Margerrison","email":"cmargerrison1m@sohu.com","gender":"F","password":"v8jDPkIs","yearOfBirth":2007,"phone":"559-374-1529"},
-    {"id":60,"name":"Dion Calafate","email":"dcalafate1n@com.com","gender":"M","password":"zBVyHJISVSAa","yearOfBirth":2004,"phone":"328-401-3468"},
-    {"id":61,"name":"Barbabas McGougan","email":"bmcgougan1o@surveymonkey.com","gender":"M","password":"2oV6udkXL8","yearOfBirth":1991,"phone":"327-769-5860"},
-    {"id":62,"name":"Lyda Mearns","email":"lmearns1p@about.me","gender":"F","password":"BXSqnKhg","yearOfBirth":1998,"phone":"223-409-3874"},
-    {"id":63,"name":"Toddy Cesconi","email":"tcesconi1q@chronoengine.com","gender":"M","password":"eXzYrM","yearOfBirth":1980,"phone":"747-525-3006"},
-    {"id":64,"name":"Polly Cardwell","email":"pcardwell1r@patch.com","gender":"F","password":"5vYAeqKJ","yearOfBirth":2006,"phone":"328-417-7269"},
-    {"id":65,"name":"Silvan Wyeld","email":"swyeld1s@tripod.com","gender":"M","password":"GzphFM","yearOfBirth":2003,"phone":"531-241-7341"},
-    {"id":66,"name":"Gwenneth Jocelyn","email":"gjocelyn1t@e-recht24.de","gender":"F","password":"RO4lnW","yearOfBirth":1994,"phone":"926-922-2907"},
-    {"id":67,"name":"Marena Caulkett","email":"mcaulkett1u@slashdot.org","gender":"F","password":"yTfL4QJaPT","yearOfBirth":2011,"phone":"507-454-7506"},
-    {"id":68,"name":"Bessy O'Feeny","email":"bofeeny1v@sun.com","gender":"F","password":"be3WMF","yearOfBirth":2007,"phone":"524-590-7667"},
-    {"id":69,"name":"Jennee Bickmore","email":"jbickmore1w@fda.gov","gender":"F","password":"fsXBER","yearOfBirth":2005,"phone":"626-449-4949"},
-    {"id":70,"name":"Althea O'Crevy","email":"aocrevy1x@virginia.edu","gender":"F","password":"K429ydjn","yearOfBirth":1959,"phone":"509-558-5384"},
-    {"id":71,"name":"Curry Jammet","email":"cjammet1y@shop-pro.jp","gender":"M","password":"7xrSjb","yearOfBirth":1992,"phone":"477-744-0817"},
-    {"id":72,"name":"Bryce Pickup","email":"bpickup1z@skype.com","gender":"M","password":"bVxkKTTHDQ","yearOfBirth":1998,"phone":"280-903-1207"},
-    {"id":73,"name":"Weston Bedow","email":"wbedow20@squarespace.com","gender":"M","password":"K0tffuBUs","yearOfBirth":1994,"phone":"725-407-4999"},
-    {"id":74,"name":"Hymie Pottle","email":"hpottle21@woothemes.com","gender":"M","password":"9T3So6G","yearOfBirth":2006,"phone":"854-590-4240"},
-    {"id":75,"name":"Solly Clelle","email":"sclelle22@histats.com","gender":"M","password":"WQMg0JoFtgUa","yearOfBirth":1990,"phone":"914-834-3732"},
-    {"id":76,"name":"Walther Iremonger","email":"wiremonger23@liveinternet.ru","gender":"M","password":"P0ZbZEciJ","yearOfBirth":1989,"phone":"764-878-2577"},
-    {"id":77,"name":"Clemens Kerfut","email":"ckerfut24@state.gov","gender":"M","password":"0yumBFm1Zd","yearOfBirth":2012,"phone":"712-862-0594"},
-    {"id":78,"name":"Franny Kohn","email":"fkohn25@vimeo.com","gender":"M","password":"OcCZdx3aYL","yearOfBirth":1994,"phone":"614-514-0144"},
-    {"id":79,"name":"May Costa","email":"mcosta26@alibaba.com","gender":"F","password":"BXcjbS","yearOfBirth":1996,"phone":"314-199-1724"},
-    {"id":80,"name":"Marielle Grzelak","email":"mgrzelak27@furl.net","gender":"F","password":"2ANULQv","yearOfBirth":1997,"phone":"876-248-8410"},
-    {"id":81,"name":"Port Fergusson","email":"pfergusson28@pcworld.com","gender":"M","password":"AdZa8o1y","yearOfBirth":1998,"phone":"694-429-2114"},
-    {"id":82,"name":"Daven Lorriman","email":"dlorriman29@harvard.edu","gender":"M","password":"JGXkdsoP","yearOfBirth":2006,"phone":"878-315-3556"},
-    {"id":83,"name":"Mart Pauwel","email":"mpauwel2a@canalblog.com","gender":"M","password":"YcDaOyQ","yearOfBirth":2009,"phone":"285-263-8878"},
-    {"id":84,"name":"Hildegaard Rubinfajn","email":"hrubinfajn2b@about.com","gender":"F","password":"4LUA44f","yearOfBirth":2005,"phone":"294-240-4804"},
-    {"id":85,"name":"Griffy MacCook","email":"gmaccook2c@instagram.com","gender":"M","password":"XlN8uM","yearOfBirth":1987,"phone":"771-315-8775"},
-    {"id":86,"name":"Akim Danton","email":"adanton2d@pbs.org","gender":"M","password":"HmlFn5r1Tm","yearOfBirth":2004,"phone":"283-368-0236"},
-    {"id":87,"name":"Cleve Rearden","email":"crearden2e@stumbleupon.com","gender":"M","password":"RRMwhf","yearOfBirth":2008,"phone":"689-745-6472"},
-    {"id":88,"name":"Vanya Parslow","email":"vparslow2f@google.ca","gender":"F","password":"GTGJAU3jQ","yearOfBirth":2003,"phone":"626-922-2475"},
-    {"id":89,"name":"Celina Nuzzi","email":"cnuzzi2g@wikipedia.org","gender":"F","password":"CQQoemAU8","yearOfBirth":1990,"phone":"796-246-1555"},
-    {"id":90,"name":"Carlie Domoney","email":"cdomoney2h@networkadvertising.org","gender":"M","password":"kQuluCyPh","yearOfBirth":2010,"phone":"367-736-4319"},
-    {"id":91,"name":"Rochell Moreman","email":"rmoreman2i@paginegialle.it","gender":"F","password":"D27ow43yG5I","yearOfBirth":1994,"phone":"632-760-0629"},
-    {"id":92,"name":"Bellanca Foystone","email":"bfoystone2j@epa.gov","gender":"F","password":"oBBx9V","yearOfBirth":1994,"phone":"714-892-5926"},
-    {"id":93,"name":"Ches Proom","email":"cproom2k@columbia.edu","gender":"M","password":"Bs8QllIM9r","yearOfBirth":1999,"phone":"209-884-3778"},
-    {"id":94,"name":"Karia Ybarra","email":"kybarra2l@last.fm","gender":"F","password":"XvWghoMN","yearOfBirth":2002,"phone":"550-525-5034"},
-    {"id":95,"name":"Wald Jack","email":"wjack2m@paypal.com","gender":"M","password":"sVN3oS","yearOfBirth":2012,"phone":"212-687-9402"},
-    {"id":96,"name":"Sergeant Mucillo","email":"smucillo2n@opensource.org","gender":"M","password":"aQDuf00ZjNeY","yearOfBirth":2011,"phone":"343-227-6342"},
-    {"id":97,"name":"Sarette Bennen","email":"sbennen2o@europa.eu","gender":"F","password":"nA2XQAN","yearOfBirth":2009,"phone":"780-539-3902"},
-    {"id":98,"name":"Cicely Quarmby","email":"cquarmby2p@pinterest.com","gender":"F","password":"A1ouwJexjyoX","yearOfBirth":1992,"phone":"479-587-8376"},
-    {"id":99,"name":"Tiertza Ledes","email":"tledes2q@si.edu","gender":"F","password":"mWrl9DFy","yearOfBirth":1984,"phone":"231-333-6999"},
-    {"id":100,"name":"Dore Glowacha","email":"dglowacha2r@vistaprint.com","gender":"F","password":"RwJxqMAr8Lq","yearOfBirth":2010,"phone":"479-102-3104"}],
-    "quiz":[{"id":546,"question":"_______________ is cocatenation operator in PHP ?","description":null,"answers":{"answer_a":"+ (plus)","answer_b":".  (dot)","answer_c":"^","answer_d":"-","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"true","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"PHP"}],"category":"Code","difficulty":"Easy"},{"id":562,"question":"What number is the first key of a PHP\u2019s numerical array?","description":null,"answers":{"answer_a":"-1","answer_b":"2","answer_c":"1","answer_d":"0","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"true","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"PHP"}],"category":"Code","difficulty":"Easy"},{"id":512,"question":"Text within <EM> \u2026 <\/EM> tag is displayed as ________","description":null,"answers":{"answer_a":"bold","answer_b":"indented","answer_c":"list","answer_d":"italic","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"true","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"HTML"}],"category":"Code","difficulty":"Easy"},{"id":981,"question":"How to write an IF statement in JavaScript?","description":null,"answers":{"answer_a":"if i = 5 then","answer_b":"if i = 5","answer_c":"if i == 5 then","answer_d":"if (i == 5)","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"true","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"JavaScript"}],"category":"Code","difficulty":"Easy"},{"id":606,"question":"How is a constant defined in a PHP script?","description":null,"answers":{"answer_a":"define (\"ACONSTANT\" 123)","answer_b":"define (\"ACONSTANT\", 123);","answer_c":"define (CONSTANT, 123);","answer_d":null,"answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"true","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"PHP"}],"category":"Code","difficulty":"Easy"},{"id":620,"question":"What is the difference between mysqli_fetch_object() and mysqli_fetch_array()?","description":null,"answers":{"answer_a":"The mysqli_fetch_object() function collects the first single matching record where mysqli_fetch_array() collects all matching records from the table in an array.","answer_b":"The mysqli_fetch_object() function collects all matching records from the table in an array where mysqli_fetch_array() collects the first single matching record","answer_c":null,"answer_d":null,"answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"true","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"PHP"}],"category":"Code","difficulty":"Easy"},{"id":476,"question":"What should be the first tag in any HTML Document?","description":null,"answers":{"answer_a":"<html>","answer_b":"<!doctype html>","answer_c":"<title>","answer_d":"<head>","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"true","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"HTML"}],"category":"Code","difficulty":"Easy"},{"id":505,"question":"Which of the following is an attribute of the <Table> tag?","description":null,"answers":{"answer_a":"SRC","answer_b":"BOLD","answer_c":"CELLPADDING","answer_d":"LINK","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"false","answer_c_correct":"true","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"HTML"}],"category":"Code","difficulty":"Easy"},{"id":467,"question":"What type of a language is HTML?","description":null,"answers":{"answer_a":"Scripting Language","answer_b":"Markup Language","answer_c":"Programming Language","answer_d":"Network Protocol","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"true","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"HTML"}],"category":"Code","difficulty":"Easy"},{"id":976,"question":"What is the correct syntax for referring to an external script called \"xxx.js\"?","description":null,"answers":{"answer_a":"<script name=\"xxx.js\">","answer_b":"<script src=\"xxx.js\">","answer_c":"<script href=\"xxx.js\">","answer_d":"<script declare=\"xxx.js\">","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"true","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"JavaScript"}],"category":"Code","difficulty":"Easy"},{"id":504,"question":"Which HTML tag would be used to display power in expression (A+B)2 ?","description":null,"answers":{"answer_a":"<sup>","answer_b":"<p>","answer_c":"<b>","answer_d":"<sub>","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"true","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"HTML"}],"category":"Code","difficulty":"Easy"},{"id":1063,"question":"What is service container in Laravel?","description":null,"answers":{"answer_a":"Service container is a tool used for performing dependency injection in Laravel.","answer_b":"Dockerized Laravel applications are called service containers.","answer_c":null,"answer_d":null,"answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"true","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"Laravel"}],"category":"Code","difficulty":"Easy"},{"id":580,"question":"What is Joomla in PHP?","description":null,"answers":{"answer_a":"Set of library enriched with fucntions","answer_b":"Framework for designing dynamic pages","answer_c":"An open source CMS","answer_d":"framework and distribution system for reusable PHP components","answer_e":null,"answer_f":null},"multiple_correct_answers":"true","correct_answers":{"answer_a_correct":"true","answer_b_correct":"false","answer_c_correct":"true","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"PHP"}],"category":"Code","difficulty":"Easy"},{"id":980,"question":"How do you call a function named \"myFunction\"?","description":null,"answers":{"answer_a":"myFunction()","answer_b":"call myFunction()","answer_c":"call function myFunction()","answer_d":null,"answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"true","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"JavaScript"}],"category":"Code","difficulty":"Easy"},{"id":506,"question":"Which of the following are commonly found in web pages?","description":null,"answers":{"answer_a":"internet","answer_b":"hyperlinks","answer_c":"intranet","answer_d":"all of the above","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"true","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"HTML"}],"category":"Code","difficulty":"Easy"},{"id":503,"question":"Which tag allows you to add a row in a table?","description":null,"answers":{"answer_a":"<td> and <\/td>","answer_b":"<tr> and <\/tr>","answer_c":"<th> and <\/th>","answer_d":"<cr> and <\/cr>","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"true","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"HTML"}],"category":"Code","difficulty":"Easy"},{"id":779,"question":"What is the difference between Numeric and Associative","description":null,"answers":{"answer_a":"The Numeric arrays can store numbers, strings and any object but their index will be represented by numbers while the Associative arrays have their index stored as string.","answer_b":"There are no Associative arrays","answer_c":"The Numeric and Associative arrays differ only in the maximum allowed objects in them.","answer_d":"The Numeric arrays can store numbers, strings and any object but their index will be represented by numbers while the Associative arrays each element in the main array can also be an array.","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"true","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":null,"explanation":null,"tip":null,"tags":[{"name":"PHP"}],"category":"Code","difficulty":"Easy"},{"id":623,"question":"How can the result set of Mysql be handled in PHP?","description":null,"answers":{"answer_a":"The result set can be handled using mysqli_fetch_array, mysqli_fetch_assoc, mysqli_fetch_object or mysqli_fetch_row.","answer_b":"The result set can be handled using mysqli_get_array","answer_c":null,"answer_d":null,"answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"true","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"PHP"}],"category":"Code","difficulty":"Easy"},{"id":1060,"question":"Which of the following are true for routes in Laravel?","description":null,"answers":{"answer_a":"You can not pass any arguments to your routes.","answer_b":"Routes can point to a method on a controller and also dictate which HTTP methods are able to hit that URI.","answer_c":"A route is an endpoint specified by a URI (Uniform Resource Identifier).","answer_d":"Routes can only handle GET requests","answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"false","answer_b_correct":"true","answer_c_correct":"true","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"Laravel"}],"category":"Code","difficulty":"Easy"},{"id":997,"question":"Is JavaScript case-sensitive?","description":null,"answers":{"answer_a":"True","answer_b":"False","answer_c":null,"answer_d":null,"answer_e":null,"answer_f":null},"multiple_correct_answers":"false","correct_answers":{"answer_a_correct":"true","answer_b_correct":"false","answer_c_correct":"false","answer_d_correct":"false","answer_e_correct":"false","answer_f_correct":"false"},"correct_answer":"answer_a","explanation":null,"tip":null,"tags":[{"name":"JavaScript"}],"category":"Code","difficulty":"Easy"}]
+  "users": [
+    {
+      "id": 1,
+      "name": "Bùi Văn Minh",
+      "email": "buiminhhp92@gmail.com",
+      "gender": "M",
+      "password": "123456",
+      "yearOfBirth": 1992,
+      "phone": "036-200-1053"
+    },
+    {
+      "id": 2,
+      "name": "Mavis Jeffreys",
+      "email": "mjeffreys1@oracle.com",
+      "gender": "F",
+      "password": "S1PIvJTqiA",
+      "yearOfBirth": 1999,
+      "phone": "658-361-0702"
+    },
+    {
+      "id": 3,
+      "name": "Tresa Jakoviljevic",
+      "email": "tjakoviljevic2@skype.com",
+      "gender": "F",
+      "password": "ujWqR2",
+      "yearOfBirth": 2003,
+      "phone": "634-430-5709"
+    },
+    {
+      "id": 4,
+      "name": "Fin Gockelen",
+      "email": "fgockelen3@de.vu",
+      "gender": "M",
+      "password": "gVws5jOyork",
+      "yearOfBirth": 2008,
+      "phone": "313-472-8792"
+    },
+    {
+      "id": 5,
+      "name": "Stacee Glazer",
+      "email": "sglazer4@themeforest.net",
+      "gender": "M",
+      "password": "zDycLQ8dC",
+      "yearOfBirth": 1989,
+      "phone": "885-151-9224"
+    },
+    {
+      "id": 6,
+      "name": "Phineas Artist",
+      "email": "partist5@ovh.net",
+      "gender": "M",
+      "password": "X9f1BAuai",
+      "yearOfBirth": 2008,
+      "phone": "169-498-9667"
+    },
+    {
+      "id": 7,
+      "name": "Irwin Keling",
+      "email": "ikeling6@shareasale.com",
+      "gender": "M",
+      "password": "kQGHjMxQ5Qx",
+      "yearOfBirth": 2012,
+      "phone": "687-615-8972"
+    },
+    {
+      "id": 8,
+      "name": "Haskel Zannuto",
+      "email": "hzannuto7@themeforest.net",
+      "gender": "M",
+      "password": "wH5zHoeuS",
+      "yearOfBirth": 1995,
+      "phone": "134-795-4083"
+    },
+    {
+      "id": 9,
+      "name": "Carmina Shurey",
+      "email": "cshurey8@google.co.uk",
+      "gender": "F",
+      "password": "ZMPpdOp5",
+      "yearOfBirth": 2004,
+      "phone": "740-925-9586"
+    },
+    {
+      "id": 10,
+      "name": "Lorenzo Gheeorghie",
+      "email": "lgheeorghie9@bbb.org",
+      "gender": "M",
+      "password": "VQ2OApnSLAH",
+      "yearOfBirth": 1997,
+      "phone": "109-265-2817"
+    },
+    {
+      "id": 11,
+      "name": "Hyacinthe Reddish",
+      "email": "hreddisha@youku.com",
+      "gender": "F",
+      "password": "Btg5vs",
+      "yearOfBirth": 1998,
+      "phone": "885-671-3063"
+    },
+    {
+      "id": 12,
+      "name": "Weider Pescud",
+      "email": "wpescudb@livejournal.com",
+      "gender": "M",
+      "password": "eH7EqvecK",
+      "yearOfBirth": 2003,
+      "phone": "171-589-6201"
+    },
+    {
+      "id": 13,
+      "name": "Renato Zannelli",
+      "email": "rzannellic@theatlantic.com",
+      "gender": "M",
+      "password": "gJISmRGhCTA",
+      "yearOfBirth": 2010,
+      "phone": "234-280-3209"
+    },
+    {
+      "id": 14,
+      "name": "Benji Matussov",
+      "email": "bmatussovd@apache.org",
+      "gender": "M",
+      "password": "CiKlc5mcz",
+      "yearOfBirth": 1960,
+      "phone": "635-255-7122"
+    },
+    {
+      "id": 15,
+      "name": "Kendre Konerding",
+      "email": "kkonerdinge@prnewswire.com",
+      "gender": "F",
+      "password": "mnVLGTE549",
+      "yearOfBirth": 2005,
+      "phone": "513-341-3838"
+    },
+    {
+      "id": 16,
+      "name": "Inez Bollins",
+      "email": "ibollinsf@omniture.com",
+      "gender": "F",
+      "password": "wsKgrqhW0Adh",
+      "yearOfBirth": 1989,
+      "phone": "925-642-1713"
+    },
+    {
+      "id": 17,
+      "name": "Annabell Esler",
+      "email": "aeslerg@slate.com",
+      "gender": "F",
+      "password": "NOV77sU",
+      "yearOfBirth": 1989,
+      "phone": "820-432-1932"
+    },
+    {
+      "id": 18,
+      "name": "Coralyn Fairweather",
+      "email": "cfairweatherh@google.com.au",
+      "gender": "F",
+      "password": "oSUepaj",
+      "yearOfBirth": 1995,
+      "phone": "179-970-3356"
+    },
+    {
+      "id": 19,
+      "name": "Roderick Boutflour",
+      "email": "rboutflouri@networksolutions.com",
+      "gender": "M",
+      "password": "2sjUYbsQ2nl",
+      "yearOfBirth": 2011,
+      "phone": "144-733-3878"
+    },
+    {
+      "id": 20,
+      "name": "Forester Creasey",
+      "email": "fcreaseyj@businessweek.com",
+      "gender": "M",
+      "password": "tLhRILCZ",
+      "yearOfBirth": 2005,
+      "phone": "154-410-3847"
+    },
+    {
+      "id": 21,
+      "name": "Sanford McReedy",
+      "email": "smcreedyk@1und1.de",
+      "gender": "M",
+      "password": "wLEp9hUXuE",
+      "yearOfBirth": 2004,
+      "phone": "280-249-7266"
+    },
+    {
+      "id": 22,
+      "name": "Robinett Shacklady",
+      "email": "rshackladyl@ftc.gov",
+      "gender": "F",
+      "password": "OC3KHPOgBco",
+      "yearOfBirth": 2001,
+      "phone": "970-624-1709"
+    },
+    {
+      "id": 23,
+      "name": "Fulvia Tapper",
+      "email": "ftapperm@surveymonkey.com",
+      "gender": "F",
+      "password": "Y9X9Jab7",
+      "yearOfBirth": 1996,
+      "phone": "183-529-0165"
+    },
+    {
+      "id": 24,
+      "name": "Sinclare Trass",
+      "email": "strassn@thetimes.co.uk",
+      "gender": "M",
+      "password": "sa0u6yhuz",
+      "yearOfBirth": 1995,
+      "phone": "509-813-3250"
+    },
+    {
+      "id": 25,
+      "name": "Sondra McGowran",
+      "email": "smcgowrano@businessweek.com",
+      "gender": "F",
+      "password": "OuhLaXtY",
+      "yearOfBirth": 1996,
+      "phone": "858-159-7810"
+    },
+    {
+      "id": 26,
+      "name": "Wilmette Chezelle",
+      "email": "wchezellep@aboutads.info",
+      "gender": "F",
+      "password": "Kl7hfMHM",
+      "yearOfBirth": 1995,
+      "phone": "842-606-4138"
+    },
+    {
+      "id": 27,
+      "name": "Amalia Purdy",
+      "email": "apurdyq@stumbleupon.com",
+      "gender": "F",
+      "password": "F6IPHcu",
+      "yearOfBirth": 2010,
+      "phone": "352-346-9053"
+    },
+    {
+      "id": 28,
+      "name": "Melany Cleminson",
+      "email": "mcleminsonr@geocities.com",
+      "gender": "F",
+      "password": "wV9GgMHb6T",
+      "yearOfBirth": 1996,
+      "phone": "284-774-0419"
+    },
+    {
+      "id": 29,
+      "name": "Katina Leal",
+      "email": "kleals@hubpages.com",
+      "gender": "F",
+      "password": "06wlXA5hGq",
+      "yearOfBirth": 1969,
+      "phone": "613-899-9437"
+    },
+    {
+      "id": 30,
+      "name": "Gayler Perch",
+      "email": "gpercht@cisco.com",
+      "gender": "M",
+      "password": "ib5X72B",
+      "yearOfBirth": 1991,
+      "phone": "780-952-3355"
+    },
+    {
+      "id": 31,
+      "name": "Roseann O'Hederscoll",
+      "email": "rohederscollu@quantcast.com",
+      "gender": "F",
+      "password": "SxHJkvKB8BD6",
+      "yearOfBirth": 1994,
+      "phone": "212-332-4223"
+    },
+    {
+      "id": 32,
+      "name": "Garvin Simenet",
+      "email": "gsimenetv@bing.com",
+      "gender": "M",
+      "password": "MdgL5eSj",
+      "yearOfBirth": 2006,
+      "phone": "761-961-4637"
+    },
+    {
+      "id": 33,
+      "name": "Ulrika Bloxsom",
+      "email": "ubloxsomw@addtoany.com",
+      "gender": "F",
+      "password": "tnaT48y",
+      "yearOfBirth": 2007,
+      "phone": "312-122-9621"
+    },
+    {
+      "id": 34,
+      "name": "Jacinta Scroggins",
+      "email": "jscrogginsx@dyndns.org",
+      "gender": "F",
+      "password": "oohvfO",
+      "yearOfBirth": 1994,
+      "phone": "485-445-7853"
+    },
+    {
+      "id": 35,
+      "name": "Alisun Ashmole",
+      "email": "aashmoley@meetup.com",
+      "gender": "F",
+      "password": "wKrXTUE",
+      "yearOfBirth": 1985,
+      "phone": "197-342-4290"
+    },
+    {
+      "id": 36,
+      "name": "Edmund Ewbank",
+      "email": "eewbankz@census.gov",
+      "gender": "M",
+      "password": "6V5YVgHNcGD",
+      "yearOfBirth": 2004,
+      "phone": "612-686-2366"
+    },
+    {
+      "id": 37,
+      "name": "Englebert Woolam",
+      "email": "ewoolam10@adobe.com",
+      "gender": "M",
+      "password": "PSp7KSWaU1y",
+      "yearOfBirth": 1992,
+      "phone": "818-425-8226"
+    },
+    {
+      "id": 38,
+      "name": "Leanora Balfe",
+      "email": "lbalfe11@shareasale.com",
+      "gender": "F",
+      "password": "gqRvgdEWvS",
+      "yearOfBirth": 2010,
+      "phone": "412-192-2713"
+    },
+    {
+      "id": 39,
+      "name": "Kally Buncher",
+      "email": "kbuncher12@nhs.uk",
+      "gender": "F",
+      "password": "FfPH7k2h1",
+      "yearOfBirth": 1998,
+      "phone": "102-618-6403"
+    },
+    {
+      "id": 40,
+      "name": "Sidney Mew",
+      "email": "smew13@elpais.com",
+      "gender": "M",
+      "password": "kWoUWw",
+      "yearOfBirth": 2008,
+      "phone": "845-946-2845"
+    },
+    {
+      "id": 41,
+      "name": "Roda Tejada",
+      "email": "rtejada14@goo.gl",
+      "gender": "F",
+      "password": "ejgxyfc",
+      "yearOfBirth": 1997,
+      "phone": "138-216-9481"
+    },
+    {
+      "id": 42,
+      "name": "Michel Staning",
+      "email": "mstaning15@imageshack.us",
+      "gender": "F",
+      "password": "bdXRvc",
+      "yearOfBirth": 2003,
+      "phone": "388-478-9502"
+    },
+    {
+      "id": 43,
+      "name": "Krista Garatty",
+      "email": "kgaratty16@etsy.com",
+      "gender": "F",
+      "password": "yBHepoag6GH",
+      "yearOfBirth": 1996,
+      "phone": "247-366-5325"
+    },
+    {
+      "id": 44,
+      "name": "Neville Frankton",
+      "email": "nfrankton17@nhs.uk",
+      "gender": "M",
+      "password": "1sHwleK",
+      "yearOfBirth": 2011,
+      "phone": "330-388-6288"
+    },
+    {
+      "id": 45,
+      "name": "Glendon Freund",
+      "email": "gfreund18@phpbb.com",
+      "gender": "M",
+      "password": "sgmrtG63",
+      "yearOfBirth": 2006,
+      "phone": "908-718-8925"
+    },
+    {
+      "id": 46,
+      "name": "Ralph Starling",
+      "email": "rstarling19@naver.com",
+      "gender": "M",
+      "password": "YbKVzJ",
+      "yearOfBirth": 2009,
+      "phone": "685-603-1594"
+    },
+    {
+      "id": 47,
+      "name": "Rosina Aslott",
+      "email": "raslott1a@weather.com",
+      "gender": "F",
+      "password": "EQOFAXP3",
+      "yearOfBirth": 2002,
+      "phone": "268-368-7402"
+    },
+    {
+      "id": 48,
+      "name": "Karlotta Pinkie",
+      "email": "kpinkie1b@narod.ru",
+      "gender": "F",
+      "password": "8b1L8Q6KM",
+      "yearOfBirth": 1993,
+      "phone": "258-812-1121"
+    },
+    {
+      "id": 49,
+      "name": "Janeczka Drysdall",
+      "email": "jdrysdall1c@mapquest.com",
+      "gender": "F",
+      "password": "XOzFDj",
+      "yearOfBirth": 2006,
+      "phone": "284-197-4143"
+    },
+    {
+      "id": 50,
+      "name": "Elston Roderigo",
+      "email": "eroderigo1d@springer.com",
+      "gender": "M",
+      "password": "J1vZ9DiM",
+      "yearOfBirth": 1993,
+      "phone": "105-677-9950"
+    },
+    {
+      "id": 51,
+      "name": "Darcee Lashmore",
+      "email": "dlashmore1e@typepad.com",
+      "gender": "F",
+      "password": "Fb0DVCSjwMF",
+      "yearOfBirth": 2009,
+      "phone": "703-312-5203"
+    },
+    {
+      "id": 52,
+      "name": "Audre Mallinar",
+      "email": "amallinar1f@jigsy.com",
+      "gender": "F",
+      "password": "CCzdGhhC7",
+      "yearOfBirth": 2003,
+      "phone": "196-251-5328"
+    },
+    {
+      "id": 53,
+      "name": "Nedda Bruck",
+      "email": "nbruck1g@cam.ac.uk",
+      "gender": "F",
+      "password": "5oTzMmo",
+      "yearOfBirth": 1992,
+      "phone": "420-190-4869"
+    },
+    {
+      "id": 54,
+      "name": "Pate Pattlel",
+      "email": "ppattlel1h@eventbrite.com",
+      "gender": "M",
+      "password": "Nlk3peHTvY",
+      "yearOfBirth": 1996,
+      "phone": "317-557-4396"
+    },
+    {
+      "id": 55,
+      "name": "Cheryl Mingus",
+      "email": "cmingus1i@w3.org",
+      "gender": "F",
+      "password": "GHa7Cvztsrbi",
+      "yearOfBirth": 2004,
+      "phone": "680-245-6198"
+    },
+    {
+      "id": 56,
+      "name": "Sheilakathryn Coupe",
+      "email": "scoupe1j@ameblo.jp",
+      "gender": "F",
+      "password": "a4Bkj43c",
+      "yearOfBirth": 2006,
+      "phone": "561-995-2232"
+    },
+    {
+      "id": 57,
+      "name": "Zolly Gemlett",
+      "email": "zgemlett1k@hatena.ne.jp",
+      "gender": "M",
+      "password": "v3HiURrT",
+      "yearOfBirth": 2004,
+      "phone": "746-600-3145"
+    },
+    {
+      "id": 58,
+      "name": "Dieter Delbergue",
+      "email": "ddelbergue1l@latimes.com",
+      "gender": "M",
+      "password": "AZ180Lb7Iq",
+      "yearOfBirth": 2000,
+      "phone": "914-323-6435"
+    },
+    {
+      "id": 59,
+      "name": "Christian Margerrison",
+      "email": "cmargerrison1m@sohu.com",
+      "gender": "F",
+      "password": "v8jDPkIs",
+      "yearOfBirth": 2007,
+      "phone": "559-374-1529"
+    },
+    {
+      "id": 60,
+      "name": "Dion Calafate",
+      "email": "dcalafate1n@com.com",
+      "gender": "M",
+      "password": "zBVyHJISVSAa",
+      "yearOfBirth": 2004,
+      "phone": "328-401-3468"
+    },
+    {
+      "id": 61,
+      "name": "Barbabas McGougan",
+      "email": "bmcgougan1o@surveymonkey.com",
+      "gender": "M",
+      "password": "2oV6udkXL8",
+      "yearOfBirth": 1991,
+      "phone": "327-769-5860"
+    },
+    {
+      "id": 62,
+      "name": "Lyda Mearns",
+      "email": "lmearns1p@about.me",
+      "gender": "F",
+      "password": "BXSqnKhg",
+      "yearOfBirth": 1998,
+      "phone": "223-409-3874"
+    },
+    {
+      "id": 63,
+      "name": "Toddy Cesconi",
+      "email": "tcesconi1q@chronoengine.com",
+      "gender": "M",
+      "password": "eXzYrM",
+      "yearOfBirth": 1980,
+      "phone": "747-525-3006"
+    },
+    {
+      "id": 64,
+      "name": "Polly Cardwell",
+      "email": "pcardwell1r@patch.com",
+      "gender": "F",
+      "password": "5vYAeqKJ",
+      "yearOfBirth": 2006,
+      "phone": "328-417-7269"
+    },
+    {
+      "id": 65,
+      "name": "Silvan Wyeld",
+      "email": "swyeld1s@tripod.com",
+      "gender": "M",
+      "password": "GzphFM",
+      "yearOfBirth": 2003,
+      "phone": "531-241-7341"
+    },
+    {
+      "id": 66,
+      "name": "Gwenneth Jocelyn",
+      "email": "gjocelyn1t@e-recht24.de",
+      "gender": "F",
+      "password": "RO4lnW",
+      "yearOfBirth": 1994,
+      "phone": "926-922-2907"
+    },
+    {
+      "id": 67,
+      "name": "Marena Caulkett",
+      "email": "mcaulkett1u@slashdot.org",
+      "gender": "F",
+      "password": "yTfL4QJaPT",
+      "yearOfBirth": 2011,
+      "phone": "507-454-7506"
+    },
+    {
+      "id": 68,
+      "name": "Bessy O'Feeny",
+      "email": "bofeeny1v@sun.com",
+      "gender": "F",
+      "password": "be3WMF",
+      "yearOfBirth": 2007,
+      "phone": "524-590-7667"
+    },
+    {
+      "id": 69,
+      "name": "Jennee Bickmore",
+      "email": "jbickmore1w@fda.gov",
+      "gender": "F",
+      "password": "fsXBER",
+      "yearOfBirth": 2005,
+      "phone": "626-449-4949"
+    },
+    {
+      "id": 70,
+      "name": "Althea O'Crevy",
+      "email": "aocrevy1x@virginia.edu",
+      "gender": "F",
+      "password": "K429ydjn",
+      "yearOfBirth": 1959,
+      "phone": "509-558-5384"
+    },
+    {
+      "id": 71,
+      "name": "Curry Jammet",
+      "email": "cjammet1y@shop-pro.jp",
+      "gender": "M",
+      "password": "7xrSjb",
+      "yearOfBirth": 1992,
+      "phone": "477-744-0817"
+    },
+    {
+      "id": 72,
+      "name": "Bryce Pickup",
+      "email": "bpickup1z@skype.com",
+      "gender": "M",
+      "password": "bVxkKTTHDQ",
+      "yearOfBirth": 1998,
+      "phone": "280-903-1207"
+    },
+    {
+      "id": 73,
+      "name": "Weston Bedow",
+      "email": "wbedow20@squarespace.com",
+      "gender": "M",
+      "password": "K0tffuBUs",
+      "yearOfBirth": 1994,
+      "phone": "725-407-4999"
+    },
+    {
+      "id": 74,
+      "name": "Hymie Pottle",
+      "email": "hpottle21@woothemes.com",
+      "gender": "M",
+      "password": "9T3So6G",
+      "yearOfBirth": 2006,
+      "phone": "854-590-4240"
+    },
+    {
+      "id": 75,
+      "name": "Solly Clelle",
+      "email": "sclelle22@histats.com",
+      "gender": "M",
+      "password": "WQMg0JoFtgUa",
+      "yearOfBirth": 1990,
+      "phone": "914-834-3732"
+    },
+    {
+      "id": 76,
+      "name": "Walther Iremonger",
+      "email": "wiremonger23@liveinternet.ru",
+      "gender": "M",
+      "password": "P0ZbZEciJ",
+      "yearOfBirth": 1989,
+      "phone": "764-878-2577"
+    },
+    {
+      "id": 77,
+      "name": "Clemens Kerfut",
+      "email": "ckerfut24@state.gov",
+      "gender": "M",
+      "password": "0yumBFm1Zd",
+      "yearOfBirth": 2012,
+      "phone": "712-862-0594"
+    },
+    {
+      "id": 78,
+      "name": "Franny Kohn",
+      "email": "fkohn25@vimeo.com",
+      "gender": "M",
+      "password": "OcCZdx3aYL",
+      "yearOfBirth": 1994,
+      "phone": "614-514-0144"
+    },
+    {
+      "id": 79,
+      "name": "May Costa",
+      "email": "mcosta26@alibaba.com",
+      "gender": "F",
+      "password": "BXcjbS",
+      "yearOfBirth": 1996,
+      "phone": "314-199-1724"
+    },
+    {
+      "id": 80,
+      "name": "Marielle Grzelak",
+      "email": "mgrzelak27@furl.net",
+      "gender": "F",
+      "password": "2ANULQv",
+      "yearOfBirth": 1997,
+      "phone": "876-248-8410"
+    },
+    {
+      "id": 81,
+      "name": "Port Fergusson",
+      "email": "pfergusson28@pcworld.com",
+      "gender": "M",
+      "password": "AdZa8o1y",
+      "yearOfBirth": 1998,
+      "phone": "694-429-2114"
+    },
+    {
+      "id": 82,
+      "name": "Daven Lorriman",
+      "email": "dlorriman29@harvard.edu",
+      "gender": "M",
+      "password": "JGXkdsoP",
+      "yearOfBirth": 2006,
+      "phone": "878-315-3556"
+    },
+    {
+      "id": 83,
+      "name": "Mart Pauwel",
+      "email": "mpauwel2a@canalblog.com",
+      "gender": "M",
+      "password": "YcDaOyQ",
+      "yearOfBirth": 2009,
+      "phone": "285-263-8878"
+    },
+    {
+      "id": 84,
+      "name": "Hildegaard Rubinfajn",
+      "email": "hrubinfajn2b@about.com",
+      "gender": "F",
+      "password": "4LUA44f",
+      "yearOfBirth": 2005,
+      "phone": "294-240-4804"
+    },
+    {
+      "id": 85,
+      "name": "Griffy MacCook",
+      "email": "gmaccook2c@instagram.com",
+      "gender": "M",
+      "password": "XlN8uM",
+      "yearOfBirth": 1987,
+      "phone": "771-315-8775"
+    },
+    {
+      "id": 86,
+      "name": "Akim Danton",
+      "email": "adanton2d@pbs.org",
+      "gender": "M",
+      "password": "HmlFn5r1Tm",
+      "yearOfBirth": 2004,
+      "phone": "283-368-0236"
+    },
+    {
+      "id": 87,
+      "name": "Cleve Rearden",
+      "email": "crearden2e@stumbleupon.com",
+      "gender": "M",
+      "password": "RRMwhf",
+      "yearOfBirth": 2008,
+      "phone": "689-745-6472"
+    },
+    {
+      "id": 88,
+      "name": "Vanya Parslow",
+      "email": "vparslow2f@google.ca",
+      "gender": "F",
+      "password": "GTGJAU3jQ",
+      "yearOfBirth": 2003,
+      "phone": "626-922-2475"
+    },
+    {
+      "id": 89,
+      "name": "Celina Nuzzi",
+      "email": "cnuzzi2g@wikipedia.org",
+      "gender": "F",
+      "password": "CQQoemAU8",
+      "yearOfBirth": 1990,
+      "phone": "796-246-1555"
+    },
+    {
+      "id": 90,
+      "name": "Carlie Domoney",
+      "email": "cdomoney2h@networkadvertising.org",
+      "gender": "M",
+      "password": "kQuluCyPh",
+      "yearOfBirth": 2010,
+      "phone": "367-736-4319"
+    },
+    {
+      "id": 91,
+      "name": "Rochell Moreman",
+      "email": "rmoreman2i@paginegialle.it",
+      "gender": "F",
+      "password": "D27ow43yG5I",
+      "yearOfBirth": 1994,
+      "phone": "632-760-0629"
+    },
+    {
+      "id": 92,
+      "name": "Bellanca Foystone",
+      "email": "bfoystone2j@epa.gov",
+      "gender": "F",
+      "password": "oBBx9V",
+      "yearOfBirth": 1994,
+      "phone": "714-892-5926"
+    },
+    {
+      "id": 93,
+      "name": "Ches Proom",
+      "email": "cproom2k@columbia.edu",
+      "gender": "M",
+      "password": "Bs8QllIM9r",
+      "yearOfBirth": 1999,
+      "phone": "209-884-3778"
+    },
+    {
+      "id": 94,
+      "name": "Karia Ybarra",
+      "email": "kybarra2l@last.fm",
+      "gender": "F",
+      "password": "XvWghoMN",
+      "yearOfBirth": 2002,
+      "phone": "550-525-5034"
+    },
+    {
+      "id": 95,
+      "name": "Wald Jack",
+      "email": "wjack2m@paypal.com",
+      "gender": "M",
+      "password": "sVN3oS",
+      "yearOfBirth": 2012,
+      "phone": "212-687-9402"
+    },
+    {
+      "id": 96,
+      "name": "Sergeant Mucillo",
+      "email": "smucillo2n@opensource.org",
+      "gender": "M",
+      "password": "aQDuf00ZjNeY",
+      "yearOfBirth": 2011,
+      "phone": "343-227-6342"
+    },
+    {
+      "id": 97,
+      "name": "Sarette Bennen",
+      "email": "sbennen2o@europa.eu",
+      "gender": "F",
+      "password": "nA2XQAN",
+      "yearOfBirth": 2009,
+      "phone": "780-539-3902"
+    },
+    {
+      "id": 98,
+      "name": "Cicely Quarmby",
+      "email": "cquarmby2p@pinterest.com",
+      "gender": "F",
+      "password": "A1ouwJexjyoX",
+      "yearOfBirth": 1992,
+      "phone": "479-587-8376"
+    },
+    {
+      "id": 99,
+      "name": "Tiertza Ledes",
+      "email": "tledes2q@si.edu",
+      "gender": "F",
+      "password": "mWrl9DFy",
+      "yearOfBirth": 1984,
+      "phone": "231-333-6999"
+    },
+    {
+      "id": 100,
+      "name": "Dore Glowacha",
+      "email": "dglowacha2r@vistaprint.com",
+      "gender": "F",
+      "password": "RwJxqMAr8Lq",
+      "yearOfBirth": 2010,
+      "phone": "479-102-3104"
+    }
+  ],
+  "quiz": [
+    {
+      "id": 546,
+      "question": "_______________ is cocatenation operator in PHP ?",
+      "description": null,
+      "answers": {
+        "answer_a": "+ (plus)",
+        "answer_b": ".  (dot)",
+        "answer_c": "^",
+        "answer_d": "-",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 562,
+      "question": "What number is the first key of a PHP\u2019s numerical array?",
+      "description": null,
+      "answers": {
+        "answer_a": "-1",
+        "answer_b": "2",
+        "answer_c": "1",
+        "answer_d": "0",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 512,
+      "question": "Text within <EM> \u2026 <\/EM> tag is displayed as ________",
+      "description": null,
+      "answers": {
+        "answer_a": "bold",
+        "answer_b": "indented",
+        "answer_c": "list",
+        "answer_d": "italic",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 981,
+      "question": "How to write an IF statement in JavaScript?",
+      "description": null,
+      "answers": {
+        "answer_a": "if i = 5 then",
+        "answer_b": "if i = 5",
+        "answer_c": "if i == 5 then",
+        "answer_d": "if (i == 5)",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "JavaScript"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 606,
+      "question": "How is a constant defined in a PHP script?",
+      "description": null,
+      "answers": {
+        "answer_a": "define (\"ACONSTANT\" 123)",
+        "answer_b": "define (\"ACONSTANT\", 123);",
+        "answer_c": "define (CONSTANT, 123);",
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 620,
+      "question": "What is the difference between mysqli_fetch_object() and mysqli_fetch_array()?",
+      "description": null,
+      "answers": {
+        "answer_a": "The mysqli_fetch_object() function collects the first single matching record where mysqli_fetch_array() collects all matching records from the table in an array.",
+        "answer_b": "The mysqli_fetch_object() function collects all matching records from the table in an array where mysqli_fetch_array() collects the first single matching record",
+        "answer_c": null,
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 476,
+      "question": "What should be the first tag in any HTML Document?",
+      "description": null,
+      "answers": {
+        "answer_a": "<html>",
+        "answer_b": "<!doctype html>",
+        "answer_c": "<title>",
+        "answer_d": "<head>",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 505,
+      "question": "Which of the following is an attribute of the <Table> tag?",
+      "description": null,
+      "answers": {
+        "answer_a": "SRC",
+        "answer_b": "BOLD",
+        "answer_c": "CELLPADDING",
+        "answer_d": "LINK",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 467,
+      "question": "What type of a language is HTML?",
+      "description": null,
+      "answers": {
+        "answer_a": "Scripting Language",
+        "answer_b": "Markup Language",
+        "answer_c": "Programming Language",
+        "answer_d": "Network Protocol",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 976,
+      "question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+      "description": null,
+      "answers": {
+        "answer_a": "<script name=\"xxx.js\">",
+        "answer_b": "<script src=\"xxx.js\">",
+        "answer_c": "<script href=\"xxx.js\">",
+        "answer_d": "<script declare=\"xxx.js\">",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "JavaScript"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 504,
+      "question": "Which HTML tag would be used to display power in expression (A+B)2 ?",
+      "description": null,
+      "answers": {
+        "answer_a": "<sup>",
+        "answer_b": "<p>",
+        "answer_c": "<b>",
+        "answer_d": "<sub>",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 1063,
+      "question": "What is service container in Laravel?",
+      "description": null,
+      "answers": {
+        "answer_a": "Service container is a tool used for performing dependency injection in Laravel.",
+        "answer_b": "Dockerized Laravel applications are called service containers.",
+        "answer_c": null,
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Laravel"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 980,
+      "question": "How do you call a function named \"myFunction\"?",
+      "description": null,
+      "answers": {
+        "answer_a": "myFunction()",
+        "answer_b": "call myFunction()",
+        "answer_c": "call function myFunction()",
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "JavaScript"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 506,
+      "question": "Which of the following are commonly found in web pages?",
+      "description": null,
+      "answers": {
+        "answer_a": "internet",
+        "answer_b": "hyperlinks",
+        "answer_c": "intranet",
+        "answer_d": "all of the above",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 503,
+      "question": "Which tag allows you to add a row in a table?",
+      "description": null,
+      "answers": {
+        "answer_a": "<td> and <\/td>",
+        "answer_b": "<tr> and <\/tr>",
+        "answer_c": "<th> and <\/th>",
+        "answer_d": "<cr> and <\/cr>",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 779,
+      "question": "What is the difference between Numeric and Associative",
+      "description": null,
+      "answers": {
+        "answer_a": "The Numeric arrays can store numbers, strings and any object but their index will be represented by numbers while the Associative arrays have their index stored as string.",
+        "answer_b": "There are no Associative arrays",
+        "answer_c": "The Numeric and Associative arrays differ only in the maximum allowed objects in them.",
+        "answer_d": "The Numeric arrays can store numbers, strings and any object but their index will be represented by numbers while the Associative arrays each element in the main array can also be an array.",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 623,
+      "question": "How can the result set of Mysql be handled in PHP?",
+      "description": null,
+      "answers": {
+        "answer_a": "The result set can be handled using mysqli_fetch_array, mysqli_fetch_assoc, mysqli_fetch_object or mysqli_fetch_row.",
+        "answer_b": "The result set can be handled using mysqli_get_array",
+        "answer_c": null,
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "PHP"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 1060,
+      "question": "Which of the following are true for routes in Laravel?",
+      "description": null,
+      "answers": {
+        "answer_a": "You can not pass any arguments to your routes.",
+        "answer_b": "Routes can point to a method on a controller and also dictate which HTTP methods are able to hit that URI.",
+        "answer_c": "A route is an endpoint specified by a URI (Uniform Resource Identifier).",
+        "answer_d": "Routes can only handle GET requests",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "Laravel"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 997,
+      "question": "Is JavaScript case-sensitive?",
+      "description": null,
+      "answers": {
+        "answer_a": "True",
+        "answer_b": "False",
+        "answer_c": null,
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "JavaScript"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    }
+  ]
 }
